@@ -229,3 +229,8 @@ Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 *🚴 Ciclométricas — Tu laboratorio de rendimiento ciclista, en tu escritorio.*  
 *Copyright (C) 2025-2026 Juan Carlos López San Joaquín*
+
+
+
+[Ciclometricas_Presentacion_v2.pdf](https://github.com/user-attachments/files/28200549/Ciclometricas_Presentacion_v2.pdf)
+
