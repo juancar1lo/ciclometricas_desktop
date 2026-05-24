@@ -161,7 +161,7 @@ ciclometricas
 
 - Python 3.11+
 - Windows 10/11, macOS 12+, Linux (Ubuntu 22.04+)
-- ~200 MB de espacio en disco
+- ~765 MB de espacio en disco
 - Conexión a internet solo para Strava
 
 ---
