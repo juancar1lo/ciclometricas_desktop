@@ -1,3 +1,22 @@
+<img width="717" height="227" alt="17" src="https://github.com/user-attachments/assets/94a2aa0f-a820-45f3-a21e-1dbcf3580a01" />
+<img width="247" height="166" alt="16 (redimensionado)" src="https://github.com/user-attachments/assets/1a5e3c67-f5b4-43cf-81c3-2372864e5d94" />
+<img width="297" height="159" alt="15 (redimensionado)" src="https://github.com/user-attachments/assets/96404b7c-60cb-4de5-af02-750d6b68ade4" />
+<img width="297" height="158" alt="14 (redimensionado)" src="https://github.com/user-attachments/assets/480803ba-97ca-4ddb-90bc-fb60b9e206a6" />
+<img width="317" height="168" alt="13 (redimensionado)" src="https://github.com/user-attachments/assets/07e73c0d-46ca-418e-9333-65c0611a337d" />
+<img width="297" height="159" alt="12 (redimensionado)" src="https://github.com/user-attachments/assets/08f28c95-3ff9-47b5-a63f-341bbd1fb98e" />
+<img width="277" height="147" alt="11 (redimensionado)" src="https://github.com/user-attachments/assets/360f16cb-eb06-49d6-999a-ba92e03d9a12" />
+<img width="277" height="148" alt="10 (redimensionado)" src="https://github.com/user-attachments/assets/78d15e17-d666-4d3f-95ce-e3807328d4ca" />
+<img width="277" height="148" alt="9 (redimensionado)" src="https://github.com/user-attachments/assets/2a32424e-c3e1-45bf-b0a8-de397c170378" />
+<img width="440" height="234" alt="8 (redimensionado)" src="https://github.com/user-attachments/assets/2f9b6478-462d-459f-ae3a-a8db79c1abc4" />
+<img width="460" height="245" alt="7 (redimensionado)" src="https://github.com/user-attachments/assets/836f5573-a47e-4ac7-a9c0-0c9c72f4036d" />
+<img width="460" height="242" alt="6 (redimensionado)" src="https://github.com/user-attachments/assets/67fd82a3-c2fc-4c46-9479-2a77fc892e9b" />
+<img width="477" height="253" alt="5 (redimensionado)" src="https://github.com/user-attachments/assets/8ad5227b-d3d0-483a-a300-c5fd2f9e1dbf" />
+<img width="435" height="197" alt="4 (redimensionado)" src="https://github.com/user-attachments/assets/b507658b-e74d-4ad0-9d57-782f9ff33d6f" />
+<img width="419" height="190" alt="3 (redimensionado)" src="https://github.com/user-attachments/assets/1a594022-edbb-41c8-a8b5-7756cbe16882" />
+<img width="338" height="181" alt="2 (redimensionado)" src="https://github.com/user-attachments/assets/2d781934-9b4e-430b-91e9-7d00c8c8d091" />
+<img width="253" height="134" alt="1 (redimensionado)" src="https://github.com/user-attachments/assets/209f945a-2a18-42e0-8933-861ec198b0c1" />
+<img width="134" height="178" alt="0 (redimensionado)" src="https://github.com/user-attachments/assets/dfa344cc-6d5a-4d58-bab4-808b6d99cbec" />
+<img width="360" height="154" alt="19 (redimensionado)" src="https://github.com/user-attachments/assets/022d9189-2ddd-40a5-973a-56d45cd5059b" />
 # 🚴 Ciclométricas Desktop
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
