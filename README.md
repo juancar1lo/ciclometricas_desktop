@@ -206,8 +206,8 @@ ciclométricas/
 | Monotonía / Strain | Foster (1998) |
 | Zonas de potencia | Coggan (Training and Racing with a Power Meter) |
 | Zonas de FC (FCL) | Friel (The Cyclist’s Training Bible) |
-| Análisis de cuadrantes | Coggan (2007) |
-| TSS / IF / NP | TrainingPeaks / Coggan |
+| Análisis de cuadrantes |
+| TSS / IF / NP |
 
 ---
 
