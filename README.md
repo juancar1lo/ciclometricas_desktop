@@ -17,6 +17,9 @@
 <img width="253" height="134" alt="1 (redimensionado)" src="https://github.com/user-attachments/assets/209f945a-2a18-42e0-8933-861ec198b0c1" />
 <img width="134" height="178" alt="0 (redimensionado)" src="https://github.com/user-attachments/assets/dfa344cc-6d5a-4d58-bab4-808b6d99cbec" />
 <img width="360" height="154" alt="19 (redimensionado)" src="https://github.com/user-attachments/assets/022d9189-2ddd-40a5-973a-56d45cd5059b" />
+
+
+
 # 🚴 Ciclométricas Desktop
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
