@@ -9,10 +9,6 @@
 
 Aplicación de escritorio gratuita, de código abierto y multiplataforma, construida con Python + PySide6 (Qt 6). Analiza potencia, frecuencia cardíaca, cadencia y equilibrio de pedaleo a partir de archivos **FIT** y **TCX**, con integración directa con **Strava**.
 
-Inspirada en WKO5, TrainingPeaks e Intervals.icu, Ciclométricas reúne en una herramienta local y gratuita el análisis que normalmente requiere suscripciones de pago.
-
-> 📥 **Descarga directa:** [ciclometricas.abacusai.app](https://ciclometricas.abacusai.app)
-
 ---
 
 ## ✨ Características principales
@@ -110,9 +106,13 @@ Cada actividad importada incluye:
 
 ### Opción 1 — Desde el .zip
 
-1. Descargar desde [ciclometricas.abacusai.app](https://ciclometricas.abacusai.app) o [Releases](https://github.com/juancar1lo/ciclometricas/releases)
-2. Descomprimir
-3. Instalar dependencias:
+1. Descargar desde el .zip o [Releases](https://github.com/juancar1lo/ciclometricas/releases)
+2. | Seguridad del Ejecutable | Verificación |
+| :--- | :--- |
+| **Análisis Antivirus** | 🟢 [Ver informe en VirusTotal](https://www.virustotal.com/gui/file/f50b3893f238ccbe712389dd05404a5663e19a805d495e0dd635950d1c836a70/detection) |
+| **Hash SHA-256** | `f50b3893f238ccbe712389dd05404a5663e19a805d495e0dd635950d1c836a70` |
+3. Descomprimir
+4. Instalar dependencias:
 
 ```bash
 python -m venv .venv
