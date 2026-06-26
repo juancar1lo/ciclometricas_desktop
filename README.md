@@ -233,5 +233,5 @@ Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 
 
-[Ciclometricas_Presentacion_v3.pdf](https://github.com/user-attachments/files/28200549/Ciclometricas_Presentacion_v2.pdf)
+[Ciclometricas_Presentacion_v3.pdf](https://github.com/juancar1lo/ciclometricas_desktop/blob/main/Ciclometricas_Presentacion_v3.pdf)
 
