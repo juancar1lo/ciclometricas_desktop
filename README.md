@@ -210,11 +210,28 @@ ciclometricas
 
 ### Requisitos del sistema
 
-- Python 3.11+
-- Windows 10/11, macOS 12+, Linux (Ubuntu 22.04+).
-- ~800 MB de espacio en disco.
-- Mïnimo 8 GB de RAM. Para funcionar con Ollama, se requieren al menos, para funcionar con fluidez, 16 GB de RAM.
-- Conexión a internet solo para Strava.
+•	Python 3.11 o superior
+•	Windows 10/11, Linux (Ubuntu 22.04+, Fedora 38+, etc.)
+•	~800 MB de espacio en disco
+•	16 GB RAM, mínimo aconsejable (8 GB para usarlo SIN consejero IA)
+•	Si queremos una buena velocidad del modelo LLM, GPU potente
+•	Conexión a internet, solo para la integración con Strava
+•	Ollama para el Consejero IA — se instala por separado, LLM “a gusto” del usuario
+
+### Consejero IA
+
+Instalación de Ollama (para el Consejero IA):
+¿Qué es Ollama? Ollama es un cliente de modelos LLM que permite usar IA de manera local en el ordenador del usuario. Todos sus datos quedan a salvo y no son compartidos con ninguna nube. El usuario selecciona el LLM más apropiado para su ordenador y ejecuta el modelo sin conexión a Internet, salvo para la descarga del mismo. Cualquier LLM descargado el usuario lo puede utilizar para lo que desee de manera absolutamente privada.
+•	1. Descargar Ollama desde ollama.com
+•	2. Instalar y ejecutar: ollama serve
+•	3. Descargar algún/os modelo/s (desde CMD/PowerShell/terminal: ollama pull [nombre y versión de cualquiera de los LLM disponibles: Deepseek, Llama, Qwen… y según las características del ordenador del usuario]
+•	4. Descargar embeddings: ollama pull nomic-embed-text
+•	5. Para saber los LLM instalados en Ollama: ollama list
+•	6. Para desinstalar modelos LLM: ollama rm [nombre y versión del LLM]
+•	7. Las respuestas que obtenga el usuario van a ser tanto más estructuradas y de mejor calidad cuanto más parámetros tenga el modelo LLM (pueden ser varios), lo cual dependerá de las limitaciones de hardware del ordenador del usuario.
+El Consejero IA es completamente opcional, el resto de la aplicación funciona sin Ollama.
+
+
 
 ---
 
