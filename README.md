@@ -20,7 +20,7 @@
 
 
 
-# 🚴 Ciclométricas Desktop 2.0
+#  Ciclométricas_v3.0.0
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
@@ -33,49 +33,49 @@ Aplicación de escritorio gratuita, de código abierto y multiplataforma, constr
 
 ---
 
-## ✨ Características principales
+##  Características principales
 
-### 📊 Modelo de Potencia Crítica (CP)
+###  Modelo de Potencia Crítica (CP)
 - Regresión lineal Monod-Scherrer con estimación de **CP**, **W′**, **mFTP**, **VO₂max** y potencia de sprint
 - Indicador de fiabilidad **R²** con badge visual
 - **TTE** (Tiempo hasta el Agotamiento) con estimaciones detalladas por zona: Sweet Spot (~2–4h), Tempo (~3–5h), Resistencia (>5h)
 - Evolución histórica de CP y W′ con gráfico de tendencia
 
-### 📈 Curva de Potencia-Duración (DCP)
+###  Curva de Potencia-Duración (DCP)
 - MMP global con suavizado Savitzky-Golay y escala logarítmica (5s → 45min)
 - Bandas de targeting para planificación de intervalos
 - Tarjetas de rangos sugeridos por duración
 
-### 🔥 Carga y Forma (CTL / ATL / TSB)
+###  Carga y Forma (CTL / ATL / TSB)
 - Modelo exponencial de carga crónica y aguda con **previsión a futuro**
 - Rampa semanal (ΔCTL pts/semana)
 - Gráfico de Forma con bandas: alto riesgo, óptimo, productivo, fresco, transición
 
-### 🎯 Preparación para Competir (RRS)
+###  Preparación para Competir (RRS)
 - Puntuación 0–100 basada en forma, fitness, consistencia y tendencia
 - Gauge semicircular con consejo personalizado
 
-### 🧪 Durabilidad (DRI)
+###  Durabilidad (DRI)
 - Tests empíricos: CP fresca vs fatigada
 - Modelo de decaimiento exponencial con extrapolación
 - Gráfico de área entre curvas y clasificación (excelente → limitante)
 
-### ❤️‍🩹 Módulo de Salud *(nuevo en v2.0)*
+###  Módulo de Salud *(nuevo en v2.0)*
 - FC en reposo, HRV, presión arterial, readiness, peso, grasa corporal, grasa subcutánea
 - **3 gráficos interactivos:** cardiovascular (FC + HRV + readiness), presión arterial (candlestick), composición corporal
 - Normalización de readiness desde Garmin, Whoop, Oura, COROS, Elite HRV o manual
 - Tabla histórica con edición y borrado inline
 
-### 🦶 Balance de Pedaleo *(nuevo en v2.0)*
+###  Balance de Pedaleo *(nuevo en v2.0)*
 - Análisis izquierda/derecha con barra visual
 - Clasificación: equilibrado, leve asimetría, asimetría notable
 - Detección de pierna dominante (requiere potenciómetro dual)
 
-### 📊 Tendencias de Eficiencia *(mejorado en v2.0)*
+###  Tendencias de Eficiencia *(mejorado en v2.0)*
 - EF (NP/FC), VF (NP/Pmedia) y Pw:Hr (desacople potencia/FC)
 - **3 ejes Y independientes** con escalas propias para mayor claridad
 
-### 📉 Más análisis
+###  Más análisis
 - **Zonas de potencia** — Coggan (8 zonas incluyendo Sweet Spot), referencia configurable: FTP, CP o mFTP
 - **Zonas de FC** — Friel (7 zonas basadas en FCL/LTHR) *(actualizado en v2.0)*
 - **Resistencia a la fatiga** — Índice FR por actividad con clasificación y tendencia
@@ -89,7 +89,7 @@ Aplicación de escritorio gratuita, de código abierto y multiplataforma, constr
 
 ---
 
-## 📱 Detalle de actividad
+##  Detalle de actividad
 
 Cada actividad importada incluye:
 
@@ -107,7 +107,7 @@ Cada actividad importada incluye:
 
 ---
 
-## 🔄 Importación de datos
+##  Importación de datos
 
 **Archivos locales:**
 - `.FIT` (Garmin, Wahoo, Hammerhead, COROS…) con parsing de balance izq/der nativo
@@ -124,7 +124,7 @@ Cada actividad importada incluye:
 
 ---
 
-## 🚀 Instalación
+##  Instalación
 
 ### Opción 1 — Desde el .zip
 
@@ -161,12 +161,12 @@ ciclometricas
 
 - Python 3.11+
 - Windows 10/11, macOS 12+, Linux (Ubuntu 22.04+)
-- ~765 MB de espacio en disco
+- ~800 MB de espacio en disco
 - Conexión a internet solo para Strava
 
 ---
 
-## 🏗️ Arquitectura
+##  Arquitectura
 
 ```
 ciclométricas/
@@ -197,7 +197,7 @@ ciclométricas/
 
 ---
 
-## 📚 Fundamentos científicos
+##  Fundamentos científicos
 
 | Métrica | Referencia |
 |---|---|
@@ -211,7 +211,7 @@ ciclométricas/
 
 ---
 
-## 🧱 Filosofía
+##  Filosofía
 
 - **100% local** — Tus datos nunca salen de tu ordenador
 - **Científicamente riguroso** — Basado en publicaciones revisadas por pares
@@ -220,14 +220,14 @@ ciclométricas/
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está licenciado bajo la **GNU General Public License v3.0**.  
 Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
-*🚴 Ciclométricas — Tu laboratorio de rendimiento ciclista, en tu escritorio.*  
+* Ciclométricas — Tu laboratorio de rendimiento ciclista, en tu escritorio.*  
 *Copyright (C) 2025-2026 Juan Carlos López San Joaquín*
 
 
