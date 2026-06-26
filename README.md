@@ -160,9 +160,10 @@ ciclometricas
 ### Requisitos del sistema
 
 - Python 3.11+
-- Windows 10/11, macOS 12+, Linux (Ubuntu 22.04+)
-- ~800 MB de espacio en disco
-- Conexión a internet solo para Strava
+- Windows 10/11, macOS 12+, Linux (Ubuntu 22.04+).
+- ~800 MB de espacio en disco.
+- Mïnimo 8 GB de RAM. Para funcionar con Ollama, se requieren al menos, para funcionar con fluidez, 16 GB de RAM.
+- Conexión a internet solo para Strava.
 
 ---
 
@@ -203,7 +204,7 @@ ciclométricas/
 |---|---|
 | Critical Power (CP / W′) | Monod & Scherrer (1965) |
 | W′ Balance | Skiba et al. (2012) |
-| Monotonía / Strain | Foster (1998) |
+| Monotonía | Foster (1998) |
 | Zonas de potencia | Coggan (Training and Racing with a Power Meter) |
 | Zonas de FC (FCL) | Friel (The Cyclist’s Training Bible) |
 | Análisis de cuadrantes |
