@@ -38,13 +38,13 @@ Aplicación de escritorio gratuita, de código abierto y multiplataforma, constr
 ###  Consejero IA con RAG (nuevo en v3.0.0)
 Ciclométricas integra un consejero de inteligencia artificial local que analiza tu entrenamiento y responde preguntas en lenguaje natural. Todo se ejecuta en tu ordenador mediante Ollama, sin enviar datos a la nube.
 
-Motor de contexto inteligente
+Motor de contexto inteligente: 
 El sistema clasifica automáticamente la pregunta del usuario (perfil, fitness, actividades, zonas, CP, salud, MMP, monotonía, rendimiento…) y selecciona solo los datos relevantes para incluir en el contexto del modelo. Esto permite respuestas precisas sin sobrecargar el LLM con información innecesaria.
 
-RAG semántico con embeddings
+RAG semántico con embeddings: 
 Un almacén de embeddings vectoriales (nomic-embed-text) indexa automáticamente cada actividad y perfil. Cuando el usuario hace una pregunta, el sistema busca los documentos más similares semánticamente y los incluye en el contexto. Esto permite preguntas como "¿Cuál fue mi mejor subida del mes pasado?" o "¿Cómo ha evolucionado mi fitness?".
 
-Funciones de consulta estructurada
+Funciones de consulta estructurada: 
 El Consejero tiene acceso a funciones de consulta que puede ejecutar automáticamente:
 •	Buscar actividades por fecha, tipo o nombre
 •	Consultar MMP para duraciones específicas
