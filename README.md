@@ -35,6 +35,57 @@ Aplicación de escritorio gratuita, de código abierto y multiplataforma, constr
 
 ##  Características principales
 
+###  Consejero IA con RAG (nuevo en v3.0.0)
+Ciclométricas integra un consejero de inteligencia artificial local que analiza tu entrenamiento y responde preguntas en lenguaje natural. Todo se ejecuta en tu ordenador mediante Ollama, sin enviar datos a la nube.
+Motor de contexto inteligente
+El sistema clasifica automáticamente la pregunta del usuario (perfil, fitness, actividades, zonas, CP, salud, MMP, monotonía, rendimiento…) y selecciona solo los datos relevantes para incluir en el contexto del modelo. Esto permite respuestas precisas sin sobrecargar el LLM con información innecesaria.
+RAG semántico con embeddings
+Un almacén de embeddings vectoriales (nomic-embed-text) indexa automáticamente cada actividad y perfil. Cuando el usuario hace una pregunta, el sistema busca los documentos más similares semánticamente y los incluye en el contexto. Esto permite preguntas como "¿Cuál fue mi mejor subida del mes pasado?" o "¿Cómo ha evolucionado mi fitness?".
+Funciones de consulta estructurada
+El Consejero tiene acceso a funciones de consulta que puede ejecutar automáticamente:
+•	Buscar actividades por fecha, tipo o nombre
+•	Consultar MMP para duraciones específicas
+•	Resumen de período (TSS, horas, distancia…)
+•	Fitness en fecha concreta (CTL/ATL/TSB)
+
+###  Editor de picos de potencia
+Vista híbrida para detección y corrección de picos aberrantes de potencia en archivos .FIT y .TCX. Flujo guiado:
+•	1. Abrir archivo .FIT o .TCX.
+•	2. Auto-detectar picos con 4 algoritmos combinados: umbral absoluto, umbral relativo (W/kg), tasa de cambio (ΔP/Δt) y Z-score en ventana deslizante.
+•	3. Revisar cada spike con contexto multi-canal (potencia, FC, cadencia, velocidad).
+•	4. Aceptar o rechazar cada corrección individualmente.
+•	5. Exportar archivo corregido (.FIT o .TCX) sin perder los datos originales.
+Tres métodos de corrección disponibles: interpolación lineal entre vecinos válidos, recorte al umbral máximo y reemplazo por media local.
+
+### Sesiones manuales
+Diálogo para registrar actividades no ciclistas que contribuyen a la carga de entrenamiento:
+•	Tipos: fuerza (🏋️), caminata (🚶) y otro (🏃).
+•	Presets de intensidad percibida por tipo: mantenimiento, hipertrofia, fuerza máxima; paseo, caminata rápida, marcha intensa.
+•	TSS calculado con la fórmula: TSS = horas × IF² × 100.
+•	Campos: fecha, hora, duración, tipo, intensidad, notas.
+•	Se integran automáticamente en CTL/ATL/TSB, monotonía, preparación para competir y calendario.
+
+### Objetivos de entrenamiento
+Sistema de planificación de metas de entrenamiento:
+•	Tipos de objetivo: subir CTL (fitness), subir FTP, preparar un evento.
+•	Cálculo de plan: basado en carga actual con rampa segura (3-7 pts CTL/semana, Coggan).
+•	Proyección: estimación de TSS semanal necesario y fecha estimada de consecución.
+
+###  Copia de seguridad
+Pestaña dedicada en Configuración para la gestión de copias de seguridad:
+•	Crear copia de seguridad completa de la base de datos SQLite del atleta.
+•	Restaurar desde archivo .db con confirmación para evitar pérdida de datos.
+•	Ruta configurable para la exportación.
+
+###  Lectura en voz alta (TTS)
+Servicio de Text-to-Speech integrado con QTextToSpeech (PySide6):
+•	Disponible en el consejero IA y en el detalle de actividad.
+•	Preprocesamiento inteligente de Markdown para lectura fluida.
+•	Selección automática de idioma según la configuración (español/inglés).
+•	Controles: reproducir, pausar, reanudar y detener.
+•	Compatible con Windows (SAPI5/WinRT) y Linux.
+
+Ya presentes en v2.0:
 ###  Modelo de Potencia Crítica (CP)
 - Regresión lineal Monod-Scherrer con estimación de **CP**, **W′**, **mFTP**, **VO₂max** y potencia de sprint
 - Indicador de fiabilidad **R²** con badge visual
