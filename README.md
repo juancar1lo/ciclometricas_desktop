@@ -509,4 +509,5 @@ See the LICENSE file for more details.
 
 
 [Ciclometricas_Presentacion_v3.pdf](https://github.com/juancar1lo/ciclometricas_desktop/blob/main/Ciclometricas_Presentacion_v3.pdf)
+[Ciclometricas_Presentation_v3_EN.pdf](https://github.com/juancar1lo/ciclometricas_desktop/blob/main/Ciclometricas_Presentation_v3_EN.pdf).
 
