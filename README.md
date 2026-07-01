@@ -370,21 +370,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-### Opción 2 — Desde pyproject.toml
----
-Bash
-pip install .
-ciclometricas
----
-
-### Option 2 — From pyproject.toml
----
-Bash
-pip install .
-ciclometricas
----
-
 ### Requisitos del sistema
 
 •	Python 3.11 o superior
