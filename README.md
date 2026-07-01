@@ -329,7 +329,7 @@ Each imported activity includes:
 
 ### Opción 1 — Desde el .zip
 
-1. Descargar desde el .zip o [Releases]([https://github.com/juancar1lo/ciclometricas/releases]
+1. Descargar desde el .zip o [Releases][(https://github.com/juancar1lo/ciclometricas_desktop/releases)]
 2. | Seguridad del Ejecutable | Verificación |
 | :--- | :--- |
 | **Análisis Antivirus** | 🟢 [Ver informe en VirusTotal](https://www.virustotal.com/gui/file/f50b3893f238ccbe712389dd05404a5663e19a805d495e0dd635950d1c836a70/detection) |
